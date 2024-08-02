@@ -25,6 +25,9 @@ jobs:
           java-version: 21
           distribution: temurin
 
+      - name: Check PGP version
+        run: gpg --version
+
       - name: Import signing key
         env:
           PGP_SIGNING_KEY: ${{ secrets.PGP_SIGNING_KEY }}
