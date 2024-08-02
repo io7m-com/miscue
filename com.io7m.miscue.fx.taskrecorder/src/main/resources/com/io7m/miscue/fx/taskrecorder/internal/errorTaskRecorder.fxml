@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TreeView?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Region?>
+<?import javafx.scene.layout.VBox?>
+
+<AnchorPane xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.io7m.miscue.fx.taskrecorder.internal.MTRErrorController">
+   <children>
+      <VBox AnchorPane.bottomAnchor="16.0" AnchorPane.leftAnchor="16.0" AnchorPane.rightAnchor="16.0" AnchorPane.topAnchor="16.0">
+         <children>
+            <HBox>
+               <children>
+                  <ImageView fx:id="icon" fitHeight="32.0" fitWidth="32.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@error-32.png" />
+                     </image>
+                  </ImageView>
+                  <Label fx:id="errorTitle" styleClass="errorTitle" text="%error.title">
+                     <HBox.margin>
+                        <Insets left="8.0" />
+                     </HBox.margin>
+                  </Label>
+               </children>
+            </HBox>
+            <TreeView fx:id="taskTree" styleClass="errorTaskTree" VBox.vgrow="ALWAYS">
+               <VBox.margin>
+                  <Insets top="16.0" />
+               </VBox.margin>
+            </TreeView>
+            <HBox maxHeight="-Infinity" minHeight="-Infinity" prefHeight="32.0">
+               <children>
+                  <Button cancelButton="true" maxHeight="-Infinity" minHeight="-Infinity" mnemonicParsing="false" onAction="#onDismissSelected" prefHeight="32.0" prefWidth="128.0" text="%error.dismiss" />
+                  <Region HBox.hgrow="ALWAYS" />
+                  <Button defaultButton="true" layoutX="10.0" layoutY="10.0" maxHeight="-Infinity" minHeight="-Infinity" mnemonicParsing="false" onAction="#onReportSelected" prefHeight="32.0" prefWidth="128.0" text="%error.report" />
+               </children>
+               <VBox.margin>
+                  <Insets top="16.0" />
+               </VBox.margin>
+            </HBox>
+         </children></VBox>
+   </children>
+</AnchorPane>

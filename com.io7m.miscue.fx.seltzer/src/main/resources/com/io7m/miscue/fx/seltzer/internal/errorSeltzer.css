@@ -1,0 +1,60 @@
+.errorTitle
+{
+  -fx-font-weight: bold;
+}
+
+.errorIcon
+{
+
+}
+
+.errorDetailsText
+{
+  -fx-font-size:   10pt;
+  -fx-font-family: "Monospaced";
+}
+
+.errorExceptionTitle
+{
+  -fx-font-weight: bold;
+}
+
+.errorExceptionText
+{
+  -fx-font-size:   10pt;
+  -fx-font-family: "Monospaced";
+}
+
+.errorSolutionsTitle
+{
+  -fx-font-weight: bold;
+}
+
+.errorSolutionsText
+{
+  -fx-font-size:   10pt;
+  -fx-font-family: "Monospaced";
+}
+
+.errorAttributeTable
+{
+  -fx-font-size:   10pt;
+  -fx-font-family: "Monospaced";
+}
+
+.errorAttributeTable .column-header-background
+{
+  -fx-max-height: 0;
+  -fx-pref-height: 0;
+  -fx-min-height: 0;
+}
+
+.errorDismissButton
+{
+
+}
+
+.errorReportButton
+{
+
+}

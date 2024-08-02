@@ -1,0 +1,31 @@
+.errorTitle
+{
+  -fx-font-weight: bold;
+}
+
+.errorTaskTree
+{
+
+}
+
+.errorTaskTree .tree-cell
+{
+  -fx-indent: 8;
+}
+
+.errorTaskTree .tree-cell:filled
+{
+  -fx-border-width: 0 0 1 0;
+  -fx-border-color: #000000;
+}
+
+.errorTaskTree .tree-disclosure-node
+{
+  -fx-padding: 16.0;
+}
+
+.errorTaskTree .tree-disclosure-node .arrow
+{
+  -fx-background-color: #000000;
+  -fx-padding: 4.0;
+}

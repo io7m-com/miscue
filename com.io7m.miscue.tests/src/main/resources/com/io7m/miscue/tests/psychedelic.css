@@ -1,0 +1,57 @@
+.root
+{
+  -fx-font-size: 10pt;
+  -fx-font-family: "Serif";
+
+  -fx-base:              #00ff00;
+  -fx-accent:            #aa00aa;
+  -fx-default-button:    #aa00aa;
+  -fx-focus-color:       #aa00aa;
+  -fx-faint-focus-color: #aa00aa22;
+}
+
+.errorTitle
+{
+  -fx-font-weight: bold;
+}
+
+.errorDetailsText
+{
+  -fx-font-size:   10pt;
+  -fx-font-family: "Serif";
+}
+
+.errorExceptionTitle
+{
+  -fx-font-weight: bold;
+}
+
+.errorExceptionText
+{
+  -fx-font-size:   10pt;
+  -fx-font-family: "Serif";
+}
+
+.errorSolutionsTitle
+{
+  -fx-font-weight: bold;
+}
+
+.errorSolutionsText
+{
+  -fx-font-size:   10pt;
+  -fx-font-family: "Serif";
+}
+
+.errorAttributeTable
+{
+  -fx-font-size:   10pt;
+  -fx-font-family: "Serif";
+}
+
+.errorAttributeTable .column-header-background
+{
+  -fx-max-height: 0;
+  -fx-pref-height: 0;
+  -fx-min-height: 0;
+}
