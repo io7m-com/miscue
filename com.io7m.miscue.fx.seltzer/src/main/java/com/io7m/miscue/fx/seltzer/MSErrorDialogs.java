@@ -109,9 +109,9 @@ public final class MSErrorDialogs
 
     @Override
     public MSErrorDialogBuilderType setTitle(
-      final String title)
+      final String newTitle)
     {
-      this.title = Objects.requireNonNull(title, "title");
+      this.title = Objects.requireNonNull(newTitle, "title");
       return this;
     }
 
