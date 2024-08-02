@@ -17,7 +17,6 @@
 
 package com.io7m.miscue.fx.demo;
 
-import com.io7m.miscue.fx.seltzer.MSErrorDialogType;
 import com.io7m.miscue.fx.seltzer.MSErrorDialogs;
 import com.io7m.seltzer.api.SStructuredError;
 import javafx.application.Platform;
