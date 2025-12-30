@@ -29,11 +29,7 @@
     <io7m.workID>ee1dc3b4-c529-48e2-a42a-37b2161f8763</io7m.workID>
 
     <!-- Configuration. -->
-<<<<<<< HEAD
-    <io7m.api.previousVersion>0.0.3</io7m.api.previousVersion>
-=======
-    <io7m.api.previousVersion>0.0.1</io7m.api.previousVersion>
->>>>>>> release/1.0.0
+    <io7m.api.previousVersion>1.0.0</io7m.api.previousVersion>
     <io7m.java.targetJavaVersion>25</io7m.java.targetJavaVersion>
 
     <!-- io7m dependencies. -->
