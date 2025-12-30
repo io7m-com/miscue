@@ -4,7 +4,7 @@ miscue
 [![Maven Central](https://img.shields.io/maven-central/v/com.io7m.miscue/com.io7m.miscue.svg?style=flat-square)](http://search.maven.org/#search%7Cga%7C1%7Cg%3A%22com.io7m.miscue%22)
 [![Maven Central (snapshot)](https://img.shields.io/maven-metadata/v?metadataUrl=https%3A%2F%2Fcentral.sonatype.com%2Frepository%2Fmaven-snapshots%2Fcom%2Fio7m%2Fmiscue%2Fcom.io7m.miscue%2Fmaven-metadata.xml&style=flat-square)](https://central.sonatype.com/repository/maven-snapshots/com/io7m/miscue/)
 [![Codecov](https://img.shields.io/codecov/c/github/io7m-com/miscue.svg?style=flat-square)](https://codecov.io/gh/io7m-com/miscue)
-![Java Version](https://img.shields.io/badge/21-java?label=java&color=e6c35c)
+![Java Version](https://img.shields.io/badge/25-java?label=java&color=5ce67e)
 
 ![com.io7m.miscue](./src/site/resources/miscue.jpg?raw=true)
 
@@ -22,7 +22,7 @@ JavaFX component for displaying error dialogs.
 ## Features
 
 * Display error dialogs containing [structured errors](https://www.io7m.com/software/seltzer).
-* Written in pure Java 21.
+* Written in pure Java 25.
 * [OSGi-ready](https://www.osgi.org/)
 * [JPMS-ready](https://en.wikipedia.org/wiki/Java_Platform_Module_System)
 * ISC license.

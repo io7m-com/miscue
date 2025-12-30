@@ -6,7 +6,7 @@ JavaFX component for displaying error dialogs.
 ## Features
 
 * Display error dialogs containing [structured errors](https://www.io7m.com/software/seltzer).
-* Written in pure Java 21.
+* Written in pure Java 25.
 * [OSGi-ready](https://www.osgi.org/)
 * [JPMS-ready](https://en.wikipedia.org/wiki/Java_Platform_Module_System)
 * ISC license.
